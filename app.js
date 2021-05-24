@@ -8,6 +8,8 @@ function changeToSignUp() {
    document.querySelector(".sign-link").textContent = "Sign In"
    document.querySelector(".sign-link").style.marginLeft = "235px"
    document.querySelector("title").textContent = "Sign-up"
+   document.querySelector(".right-container").style.backgroundColor = "white"
+   
 }
 
 const linkSignUp = document.querySelector(".sign-link")

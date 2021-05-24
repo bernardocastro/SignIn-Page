@@ -16,6 +16,10 @@ main {
 		padding-left: 55px;
 		padding-top: 55px;
 
+		@media (max-width: 1030px)  {
+			display: none;
+		}
+
 		&::before{
 			background-color: rgba(0, 0, 0, 0.7);
 			content: '';
@@ -59,7 +63,6 @@ main {
 			font-family: 'Poppins';
 			font-size: 12px;
 			color: $white;
-			
 		}
 	}
 
@@ -70,8 +73,13 @@ main {
     	justify-content: center;
     	align-items: center;
 
+		@media (max-width: 1030px) {
+			background-color: white;
+		}
+
 		.content {
 			margin: 0 auto;
+			padding: 40px;
 		}
 
 		img.right-container-logo {
@@ -161,15 +169,6 @@ main {
 
 		}
 
-		@media (max-width: 1055px)  {
-			
-			.left-container {
-				display: none;
-			}
-
-
-
-		}
-
+		
 	}
 
